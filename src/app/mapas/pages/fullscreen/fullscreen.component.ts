@@ -17,7 +17,7 @@ export class FullscreenComponent implements OnInit {
   constructor() { }
   ngOnInit(): void {
   
-    var map = new mapboxgl.Map({
+    let map = new mapboxgl.Map({
       container: 'mapa',
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [ -99.14665795883748,19.50419971321819],
